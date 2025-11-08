@@ -1,4 +1,4 @@
-Practical No 5
+Practical No 4
 Unnamed PL/SQL code block: Use of Control structure and Exception handling is mandatory. Write a PL/SQL block of code for the following requirements:- 
 Schema: 
 1. Borrower(Rollin, Name, DateofIssue, NameofBook, Status) 
