@@ -1,58 +1,130 @@
-# DBMSL
-All DBMSL Practicals for SPPU Batch of 2019 Pattern Computer Engineering 
-1.Design and develop a database schema for a College Library Management System that 
-demonstrates the use of SQL DDL statements. Create SQL objects such as Tables, 
-Views, Indexes, Sequences, and Synonyms with appropriate constraints like Primary 
-Key, Foreign Key, Unique, Check, and Not Null. The database should store 
-information about students, books, and transactions efficiently.
-2.Design and implement at least 10 SQL DML queries for a Student Result Management 
-System. The queries should perform operations such as Insert, Update, Delete, and 
-Select using arithmetic, comparison, logical, and set operators, as well as built-in SQL 
-functions. Demonstrate practical data manipulation for tables like Student, Marks, and 
-Result 
-3.  
-Develop 10 SQL queries for a Company Employee Database Application using 
-different types of Joins, Sub-queries, and Views. The queries should extract meaningful 
-business insights such as department-wise employee lists, highest-paid employees, and 
-performance-based selections using advanced SQL techniques. 
-4.  
-Unnamed PL/SQL code block: Use of Control structure and Exception handling is 
-mandatory. Write a PL/SQL block of code for the following requirements:-  
-Schema:  
-1. Borrower(Rollin, Name, DateofIssue, NameofBook, Status)  
-2. Fine(Roll_no,Date,Amt)  
-Accept roll_no & name of book from user.  
-Check the number of days (from date of issue), if days are between 15 to 30 then fine 
-amount will be Rs 5per day.  
-• If no. of days>30, per day fine will be Rs 50 per day & for days less than 30, Rs. 5 
-per day.  
-• After submitting the book, status will change from I to R.  
-• If condition of fine is true, then details will be stored into fine table.  
-5.  
-Write a Stored Procedure namely proc_Grade for the categorization of student. If marks 
-scored by students in examination is <=1500 and marks>=990 then student will be 
-placed in distinction category if marks scored are between 989 and900 category is first 
-class, if marks 899 and 825 category is Higher Second Class.  
-Write a PL/SQL block for using procedure created with above requirement. 
-Stud_Marks(name, total_marks) Result(Roll,Name, Class) . 
-6.  
-Write a PL/SQL block of code using parameterized Cursor, that will merge the data 
-available in the newly created table N_RollCall with the data available in the table 
-O_RollCall. If the data in the first table already exist in the second table then that data 
-should be skipped.And Write a database trigger on Library table. The System should keep track of the records 
-that are being updated or deleted. The old value of updated or deleted records should be 
-added in Library_Audit table.
-7.  
-Write a program to implement MySQL/Oracle database connectivity with java to 
-implement Database navigation operations (add, delete, edit etc.) 
-8. 
-Design and develop a MongoDB database for an Online Shopping Application. 
-Implement and demonstrate CRUD (Create, Read, Update, Delete) operations using 
-MongoDB queries, including the use of logical operators and the save() method. The 
-database should manage data for collections such as 
-9.  
-a) Implement aggregation and indexing with suitable example using MongoDB.  
-b) Implement Map reduces operation with suitable example using MongoDB 
-10.  
-Write a Program to Implement MongoDB Database Connectivity with Java to Perform 
-Database Navigation Operations (Add, Delete, Edit, etc.)
+# 📚 DBMSL Practicals  
+_All DBMSL Practicals for SPPU (2019 Pattern) — Computer Engineering_  
+
+---
+
+## 🧩 Practical 1: College Library Management System  
+**Objective:**  
+Design and develop a database schema that demonstrates the use of **SQL DDL statements**.  
+
+**Tasks:**  
+- Create SQL objects such as **Tables**, **Views**, **Indexes**, **Sequences**, and **Synonyms**.  
+- Apply appropriate **constraints** like `PRIMARY KEY`, `FOREIGN KEY`, `UNIQUE`, `CHECK`, and `NOT NULL`.  
+- Ensure efficient storage of information about **students**, **books**, and **transactions**.  
+
+---
+
+## 🧮 Practical 2: Student Result Management System  
+**Objective:**  
+Implement at least **10 SQL DML queries** for a Student Result Management System.  
+
+**Tasks:**  
+- Perform operations such as `INSERT`, `UPDATE`, `DELETE`, and `SELECT`.  
+- Use **arithmetic**, **comparison**, **logical**, and **set operators**.  
+- Apply **built-in SQL functions**.  
+- Work with tables like **Student**, **Marks**, and **Result**.  
+
+---
+
+## 🏢 Practical 3: Company Employee Database Application  
+**Objective:**  
+Develop 10 SQL queries using **Joins**, **Subqueries**, and **Views**.  
+
+**Tasks:**  
+- Extract meaningful business insights such as:  
+  - Department-wise employee lists  
+  - Highest-paid employees  
+  - Performance-based selections  
+- Demonstrate **advanced SQL techniques**.  
+
+---
+
+## ⚙️ Practical 4: PL/SQL Code Block (Control Structures & Exception Handling)  
+**Schema:**  
+- `Borrower(Rollin, Name, DateofIssue, NameofBook, Status)`  
+- `Fine(Roll_no, Date, Amt)`  
+
+**Requirements:**  
+- Accept `roll_no` and `name of book` from the user.  
+- Calculate fine:  
+  - If days between 15–30 → ₹5 per day  
+  - If days > 30 → ₹50 per day  
+- Update book status from **‘I’ (Issued)** to **‘R’ (Returned)** after submission.  
+- If fine applies, insert details into the **Fine** table.  
+
+---
+
+## 🎓 Practical 5: Stored Procedure — Student Categorization  
+**Procedure:** `proc_Grade`  
+
+**Logic:**  
+- If `marks >= 990 and <= 1500` → **Distinction**  
+- If `marks between 900 and 989` → **First Class**  
+- If `marks between 825 and 899` → **Higher Second Class**  
+
+**Tables:**  
+- `Stud_Marks(name, total_marks)`  
+- `Result(Roll, Name, Class)`  
+
+**Task:**  
+Write a PL/SQL block to use the above stored procedure.  
+
+---
+
+## 🧾 Practical 6: Parameterized Cursor & Trigger  
+**Tasks:**  
+1. Write a PL/SQL block using a **parameterized cursor** to merge data from:  
+   - `N_RollCall` (new)  
+   - `O_RollCall` (old)  
+   Skip records that already exist in `O_RollCall`.  
+2. Write a **database trigger** on the `Library` table to:  
+   - Track **updated** or **deleted** records.  
+   - Store old values in the **Library_Audit** table.  
+
+---
+
+## ☕ Practical 7: Java Database Connectivity (JDBC)  
+**Objective:**  
+Implement **MySQL/Oracle** database connectivity using Java.  
+
+**Features:**  
+- Perform database navigation operations:  
+  - Add  
+  - Delete  
+  - Edit  
+  - View  
+
+---
+
+## 🛒 Practical 8: MongoDB — Online Shopping Application  
+**Objective:**  
+Design and develop a **MongoDB** database with full **CRUD** functionality.  
+
+**Tasks:**  
+- Implement `Create`, `Read`, `Update`, and `Delete` operations.  
+- Use logical operators and the `save()` method.  
+- Manage collections for shopping data.  
+
+---
+
+## 📊 Practical 9: MongoDB Aggregation & MapReduce  
+**Tasks:**  
+- Implement **aggregation** and **indexing** with suitable examples.  
+- Demonstrate **MapReduce** operations using MongoDB.  
+
+---
+
+## 💻 Practical 10: MongoDB Java Connectivity  
+**Objective:**  
+Write a Java program to implement **MongoDB connectivity** and perform:  
+- Add  
+- Delete  
+- Edit  
+- Navigation operations  
+
+---
+
+### 🏁 End of Practicals
+
+> **Author:** SPPU Computer Engineering (2019 Pattern)  
+> **Subject:** Database Management Systems Laboratory (DBMSL)
