@@ -122,9 +122,3 @@ Write a Java program to implement **MongoDB connectivity** and perform:
 - Edit  
 - Navigation operations  
 
----
-
-### 🏁 End of Practicals
-
-> **Author:** SPPU Computer Engineering (2019 Pattern)  
-> **Subject:** Database Management Systems Laboratory (DBMSL)
