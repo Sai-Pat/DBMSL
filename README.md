@@ -3,6 +3,13 @@ _All DBMSL Practicals for SPPU (2019 Pattern) — Computer Engineering_
 
 ---
 
+## ⚠️ Disclaimer  
+This repository is created **strictly for educational and learning purposes only**.  
+We **do not encourage or intend any form of plagiarism or copying** of academic material.  
+All content is meant to serve as a **reference** to help students understand concepts and develop their own solutions.  
+
+---
+
 ## 🧩 Practical 1: College Library Management System  
 **Objective:**  
 Design and develop a database schema that demonstrates the use of **SQL DDL statements**.  
@@ -122,3 +129,13 @@ Write a Java program to implement **MongoDB connectivity** and perform:
 - Edit  
 - Navigation operations  
 
+---
+
+### 💬 Contribution  
+Feel free to contribute by improving examples, adding explanations, or fixing errors.  
+Open a pull request if you have better solutions or queries!  
+
+### 🧠 Author  
+Created by **Sai-Pat** for educational reference.  
+
+---
